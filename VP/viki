@@ -1,0 +1,39 @@
+Extreme Programming (XP)
+What is XP?
+
+Extreme Programming (XP) is an agile software development method focused on speed, simplicity, and adaptability. It emphasizes short development cycles, continuous testing, frequent releases, and close collaboration, allowing real-time adjustment to changing customer needs.
+History
+
+    Creator: Kent Beck, a leading software development expert.
+
+    Created: In the 1990s, as a response to the need for faster and higher-quality software development processes.
+
+    Agile Method: XP is one of the most popular Agile methods, aiming for flexible, high-quality software tailored to evolving client demands.
+
+Key Challenges
+
+    High Discipline Required: Teams must strictly follow practices like pair programming, continuous integration, and frequent releases, which not all teams are ready for.
+
+    Intensive Communication: XP demands strong collaboration within the team and with the customer, making it difficult for remote teams or when customer communication is limited.
+
+Focus on Development
+
+    XP emphasizes technical excellence: clean code, refactoring, testing, and small iterations.
+
+    It pays less attention to project management structures, making frameworks like Scrum or Kanban more attractive to managers seeking clear roles and processes.
+
+Limitations
+
+    Not Ideal for Large Projects: XP works best for small teams (3–10 people). In larger organizations with complex structures, frameworks like Scrum or SAFe are often better choices.
+
+    Difficult Practices: Practices like pair programming and continuous refactoring can be misunderstood or seem inefficient in organizations unfamiliar with high code quality standards.
+
+    Limited Hybrid Flexibility: XP is harder to combine with other frameworks like Scrum or Kanban compared to more modular approaches.
+
+When to Use XP
+
+    Small teams with high technical standards.
+
+    Projects requiring excellent code quality.
+
+    Environments where requirements frequently change and quick adaptation is critical.
