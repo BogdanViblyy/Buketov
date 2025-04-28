@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор новостей</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl shadow-lg p-8 w-full max-w-2xl">
+        <h1 class="text-3xl font-bold text-center text-gray-800 mb-8">📰 Генератор новостей</h1>
+
+        <div class="space-y-4">
+            <div>
+                <label for="category" class="block text-sm font-medium text-gray-700">Выберите категорию:</label>
+                <select id="category" class="mt-1 block w-full p-2 border border-gray-300 rounded-lg">
+                    <option value="Технологии">Технологии</option>
+                    <option value="Спортивные новости">Спортивные новости</option>
+                    <option value="Экономика">Экономика</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="count" class="block text-sm font-medium text-gray-700">Количество новостей:</label>
+                <input type="number" id="count" value="3" min="1" max="10" class="mt-1 block w-full p-2 border border-gray-300 rounded-lg">
+            </div>
+
+            <div class="flex flex-wrap gap-2 mt-4">
+                <button id="generate" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg">Сгенерировать</button>
+                <button id="addCustom" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg">Добавить свою</button>
+                <button id="reset" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg">Очистить список</button>
+            </div>
+        </div>
+
+        <ul id="newsList" class="mt-8 space-y-4"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
