@@ -1,0 +1,21 @@
+How I applied VP/MVP principles during development:
+
+While building the News Generator project, I followed VP/MVP (Value Programming / Minimum Viable Product) principles:
+
+    Minimal working product:
+    I first implemented the core functionality: selecting a category, setting the number of news items, generating random news with dates, adding custom news, and clearing the list.
+
+    Fast iteration:
+    Features were added step-by-step — starting with random news generation, then adding the ability to input custom news and reset the list.
+
+    Focus on key value:
+    I kept the focus on delivering the main value — making news creation simple, fast, and intuitive, without unnecessary complexity.
+
+    Using Tailwind CSS:
+    I used Tailwind to style the project quickly without writing custom CSS, ensuring a modern and responsive design.
+
+    Prepared for future improvements:
+    The code structure is clean and modular, making it easy to add new features later (e.g., localStorage saving, animations, or modal windows) without rewriting the core.
+
+    Result:
+    I delivered a simple, functional, and expandable product that solves the main task efficiently with minimal effort.
